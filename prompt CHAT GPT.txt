@@ -1,0 +1,13 @@
+Oi, como vc sabe eu estou tentando desenvolver um jogo de cartas. E quero testar aqui em você o balanceamento. Essa é uma lista de algumas cartas e vou falar as regras do jogo. Você pode fazer um teste de balanceamento, por favor. As regras são:
+1 - Cada jogador vai ter 5 criaturas uma carta de estrutura e um baralho de 40 cartas.
+2 - O objetivo é derrotar todas as criatura do adversário zerando a vida das criaturas.
+3 - Por turno cada jogador pode jogar uma carta da mão, ativar quantos efeitos quiser das cartas na mesa e atacar.
+4 - Você pode passar o turno sem atacar se quiser, mas se atacar o turno acaba em seguida, e no primeiro turno quem começa não ataca.
+5 - No inicio do turno se compra uma carta de cima do baralho.
+6 - Pode-se ter até 5 cópias de cada carta no baralho, mas o baralho deve ter 40 cartas. A exceção são os tributos podem-se ter quantos quiser de cada.
+7 - Atacar funciona assim: a criatura atacante compara valores com a defensora. Uma ataca e depois a outra revida. Quem tem mais velocidade da o dano primeiro, se a velocidade for igual o dano é ao mesmo tempo, mas atacar e revidar são coisas diferentes para efeitos de cartas.
+8 - O dano funciona assim: o ataque da criatura atacante, menos a defesa da criatura defensora, o restante é tirado da vida da criatura defensora. O revidar, seja antes o depois do ataque, depende da velocidade, é calculado da mesma forma.
+9 - Se após o ataque a criatura adversária for derrotada ela não revida.
+10 - Pode-se atacar com apenas uma criatura por turno, após isso o turno acaba.
+11 - Ao receber +1 de vida ela aumenta sua vida máxima. Exemplo: a criatura tem 3 de vida e vida maxima, recebeu 2 de dano, ficou com 1 de vida, usou um atributo que aumenta um de vida máxima, ela passa a ter 4 de vida máxima e 2 de vida. Mesmo que ela cure 5, ela vai ter apenas 4 de vida máxima que é a vida máxima inicial 3 + 1 do atributo.
+12 - Do mesmo jeito que se a criatura morrer ela não revida, se o revidar acontecer primeiro e a criatura atacante morrer antes, o ataque não acontece.
